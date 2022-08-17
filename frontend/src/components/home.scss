@@ -1,0 +1,115 @@
+.imagewrapper{
+    position: relative;
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background{
+    object-fit: cover;
+    z-index: -1; 
+    height: 90vh;
+    width: 100vw;
+    position: absolute;
+}
+.searchbar{
+    background-color: white;
+    border-radius: 15px;
+    padding:25px 40px;
+    width:600px;
+    position: relative;
+}
+.h1{
+    font-weight: 600;
+    font-size: 20px;
+    color:#0000a0;    
+}
+.inputfield{
+    width: 100%;
+    border:1px solid #4f4f4f;
+    border-radius: 5px;
+    margin:20px 0px 0px 0px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    font-size: 24px;
+    color:#383838;
+    padding:10px 0px 10px 10px;
+    
+}
+.input{
+    border: none;
+    background-color: white;
+    font-size: inherit;
+    width:500px
+
+}
+TextField{
+    border:#4f4f4f
+}
+input:focus{
+    outline: none;
+}
+.pricewrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top:20px
+}
+.date{
+    z-index: 3;
+    position: absolute;
+    top: 305px;
+  
+}
+.price{
+    border:none;
+    background-color: white;
+    width: 200px;
+    font-size: inherit;
+}
+
+.pricefield{
+    border:1px solid #4f4f4f;
+    border-radius: 5px;
+    margin:20px 0px 0px 0px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    font-size: 18px;
+    color:#383838;
+    padding:10px;
+    width:230px   
+}
+
+.pricefield1{
+    border:1px solid #4f4f4f;
+    border-radius: 5px;
+    margin:20px 0px 0px 0px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    font-size: 18px;
+    color:#383838;
+    padding:10px;
+    width:600px   
+}
+.searchlease{
+    background-color: #0000a0;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    color:white;
+    
+}
+.explore{
+    
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 24px;
+    color:white;
+    background-color: #d0b53d
+}

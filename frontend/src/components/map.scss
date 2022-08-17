@@ -1,0 +1,73 @@
+textarea{
+    height:30px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+label{
+    color: rgb(202, 86, 32);
+    font-size: large;
+}
+.searchlease1{
+    background-color: #0000a0;
+    padding: 5px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    color:white;
+}
+.upload{
+    margin-top: 10px;
+    padding:2.5px;
+    border: none;
+    
+}
+.inputprice{
+    border: none; 
+    background-color: white;
+    width:110px
+}
+.wrappedprice{
+    display: flex;
+    gap:5px;
+    font-weight: 600;
+    align-items: center;
+    font-size: small;
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.wrappedcalendar{
+    display: flex;
+    gap:5px;
+    font-weight: 600;
+    align-items: center;
+    font-size: small;
+ 
+}
+
+.card{
+    padding: none;
+    border-radius: 10px;
+
+}
+.cardimage{
+    width: 250px;
+    height:250px;
+    object-fit: cover;
+    overflow:hidden ;
+}
+.cardtext{
+    display: flex;
+    padding:5px;
+    font-size: 24px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+.cardprice{
+    color:#008040;
+}
+.boxx{
+    position: relative;
+    top:-300px
+}
